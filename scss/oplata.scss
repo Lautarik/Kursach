@@ -1,0 +1,631 @@
+
+#mySelect {
+  display: flex;
+  justify-content: center; /* Горизонтальное выравнивание */
+  align-items: center;     /* Вертикальное выравнивание */
+  height: 100px;
+}
+
+.foooter{
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    color: white;
+}
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 15% 15% 26% 38%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+
+.onas,.podderzhkaaa,.aaattention,.phooone,.emaaail,.vsepart{
+    text-align: center;
+}
+
+.soc{
+    text-align: center;
+}
+
+.seeeti{
+    text-align: center;
+    font-size: 20px;
+}
+.part{
+    text-align: center;
+    font-size: 20px;
+}
+
+.coooca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 65px;
+    height: 65px;
+}
+
+.vk,.tg,.inst{
+    width: 45px;
+    height: 45px;
+}
+
+.aaattention,.kooontakti{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.mySelect{
+  width: 25%;
+  height: 30%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/*верх--------------------------------------------------------------------------------------------------------------------*/
+body{
+    margin: 0;  /* для body*/
+}
+
+.header{
+    width: 100%;
+    background-color: aqua;
+  height: 80px;
+  padding-top: 20px;
+margin: 0px;
+  }
+  
+  .logotip{
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: 2px solid black;
+  }
+  
+  .photographia{
+    width: 40px;
+    margin-left: -2px;
+  }
+  
+  .nazva{
+  color: #0E858C;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: -57px;
+  font-size: 22px;
+  }
+  /*-----------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .osnova{
+    background-color: aqua;
+    height: 550px;
+    }
+    
+    .podosnova{
+      background-color: white;
+      height: 500px;
+      width: 90%;
+     margin: auto;  /*по центру*/
+     border-radius: 20px;
+    }
+
+
+    .num{
+        border: 2px solid black;
+        padding-top: 14px;
+        padding-bottom:14px;
+        padding-right: 230px;
+        border-radius: 20px;
+        font-size: 20px;
+
+        
+    }
+    .pole{
+        text-align: center;
+padding-top: 40px;
+    }
+
+
+
+
+#vis,#mast{
+    display: inline-block;
+}
+
+.fot1,.fot2{
+    display: inline-block;
+}
+  
+
+#mast{
+        border: 4px solid black;
+        width: 125px;
+        height: 125px;
+        margin-left:500px;
+        margin-top: 30px;
+        border-radius: 20px;
+            }
+        
+.fot1{
+    height: 67px;
+    padding-top: 30px;
+    padding-left: 7px;
+    
+}
+
+.fot2{
+    padding-top: 30px;
+    padding-left: 12px;
+}
+
+
+
+#vis{
+border: 4px solid black;
+width: 125px;
+height: 125px;
+margin-left: 20px;
+margin-top: 30px;
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+.otpravit{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    width: 210px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .but{
+  text-align: center;
+  margin-top: 55px;
+  }
+
+    
+
+
+
+
+
+
+
+
+
+  .Podderzhka,.Politika,.email,.telephone{
+    font-size:20px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #5F5A5A;
+    
+  }
+  
+  .foot1, .foot2,.foot3 {
+    display: inline-block; /* Делаем блоки строчными */
+    vertical-align: center; /* Выравниваем по верхнему краю */
+    color: rgb(255, 255, 255);
+    width: 33%; /* Делаем блоки примерно равными */
+  }
+  
+  .Vazhno, .contakti,.Seti {
+    font-size: 30px; /* Делаем одинаковый размер */
+  }
+  
+.photo1{
+margin-left: -20px;
+}
+
+
+
+.Vazhno,.Podderzhka,.Politika,.contakti,.telephone,.email,.seti,.Nashi{
+  margin-left: 100px;
+}
+
+
+
+
+.Nashi{
+    font-size: 25px;
+    color: white;
+}
+
+.coca{
+    width: 120px;
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+.netflix{
+    width: 80px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.subaru{
+  width: 85px;
+  margin-left: 20px;
+  margin-bottom:15px ;
+}
+.lego{
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nvidia{
+  width: 70px;
+  margin-left:20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*чтобы виза с мастеркард стояли на одном уровне с партнерами*/
+.foot4,.foot5{
+  display: inline-block;
+  
+}
+
+
+.visa{
+  width: 35px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+.mastercard{
+  width: 35px;
+  margin-left: 10px;
+margin-bottom: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media(max-width:319px){
+
+
+
+
+
+
+  .Vazhno{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  
+  .Podderzhka,.Politika{
+    font-size: 8px;
+    margin-left: 10px;
+    
+  }
+  
+  .contakti{
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+  margin-top: 0;
+  
+  }
+  
+  .telephone,.email{
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email{
+    font-size: 6px;
+  }
+  
+  .foot1{
+  width: 100px;
+  }
+  
+  .foot2{
+    width: 80px;
+  }
+  
+  
+  .Politika{
+    font-size: 6px;
+  }
+  
+  .Seti{
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+    
+  }
+  .photo1,.photo2,.photo3{
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3{
+    height: 30px;
+    margin-top: 0;
+    
+  }
+  
+  .Nashi{
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .coca,.netflix,.subaru,.nvidia,.lego{
+    width: 30px;
+    margin-left: 5px;
+  }
+  .coca{
+    padding-left: 10px;
+    
+    margin: 0;
+  }
+  
+  
+  .visa,.mastercard{
+  width: 13px;
+  }
+  
+  .visa{
+    margin-left: 270px;
+    margin-bottom: 0;
+  }
+  .mastercard{
+    margin-left:3px ;
+    margin-bottom: 0;
+  }
+  
+  .foot4{
+    height: 70px;
+  }
+  
+  .footer{
+    height: 100%;
+  }
+  .foot5{
+    height: 15px;
+  }
+  .nvidia,.lego,.subaru,.coca,.netflix{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  
+  .now{
+    font-size: 24px;
+  }
+  
+  
+  
+  .photographia{
+    width: 26px;
+  }
+  .logotip{
+   height: 26px;
+   width: 100px;
+  }
+  .header{
+    height: 50px;
+  }
+  .nazva{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 16px;
+  }  
+
+
+
+
+
+
+
+.num{
+  padding: 0;
+  width: 180px;
+  height: 20px;
+  font-size: 14px;
+ 
+}
+
+.pole{
+  padding-top: 20px;
+}
+
+#mast,#vis{
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+.fot1{
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.fot2{
+  padding: 0;
+  width: 55px;
+  height: 60px;
+  margin-left: 2px;
+}
+
+#mast{
+  margin-left: 70px;
+  margin-right: 10px;
+}
+
+.otpravit{
+  width: 95px;
+height: 25px;
+font-size: 13px;
+}
+
+
+.but{
+  margin-top: 15px;
+}
+
+
+
+
+.osnova{
+  height: 260px;
+}
+.podosnova{
+  height: 235px;
+}
+}
+
+
+
+@media(min-width:320px) and (max-width:452px){
+ 
+
+.coooca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 45px;
+    height: 45px;
+}
+
+.vk,.tg,.inst{
+    width: 35px;
+    height: 35px;
+}
+
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 25% 25% 46%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+.fooot4{
+    grid-column:1/4;
+}
+.podderzhka,.onas,.phooone,.emaaail{
+    font-size: 12px;
+}
+.foooter{
+    height: 300px;
+}
+ .num{
+    width: 250%;
+    font-size: 8px;
+    height: 10px;
+    padding-right: 0;
+    margin-left: 45%;
+  }
+.pole{
+  width: 30%;
+    font-size: 8px;
+    height: 15px;
+    padding-right: 0;
+}
+.mySelect{
+  width: 50%;
+  margin-top: 20%;
+}
+.podosnova{
+  height: 350px;
+}
+.osnova{
+  height: 365px;
+}
+}
+
+
+
+
+
+
+@media(min-width:453px) and (max-width:699px){
+.coca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 65px;
+    height: 65px;
+}
+
+.vk,.tg,.inst{
+    width: 45px;
+    height: 45px;
+}
+
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 25% 25% 46%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+.fooot4{
+    grid-column:1/4;
+}
+
+.foooter{
+    height: 280px;
+}
+ .num{
+    width: 250%;
+    font-size: 8px;
+    height: 10px;
+    padding-right: 0;
+    margin-left: 40%;
+  }
+.pole{
+  width: 30%;
+    font-size: 8px;
+    height: 15px;
+    padding-right: 0;
+}
+.mySelect{
+  width: 50%;
+  margin-top: 20%;
+}
+.podosnova{
+  height: 350px;
+}
+.osnova{
+  height: 365px;
+}
+}

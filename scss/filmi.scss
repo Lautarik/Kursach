@@ -1,0 +1,1861 @@
+.foooter{
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    color: white;
+}
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 15% 15% 26% 38%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+
+.onas,.podderzhkaaa,.aaattention,.phooone,.emaaail,.vsepart{
+    text-align: center;
+}
+
+.soc{
+    text-align: center;
+}
+
+.seeeti{
+    text-align: center;
+    font-size: 20px;
+}
+.part{
+    text-align: center;
+    font-size: 20px;
+}
+
+.coooca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 65px;
+    height: 65px;
+}
+
+.vk,.tg,.inst{
+    width: 45px;
+    height: 45px;
+}
+
+.aaattention,.kooontakti{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+@media(min-width:453px) and (max-width:699px){
+.coca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 65px;
+    height: 65px;
+}
+
+.vk,.tg,.inst{
+    width: 45px;
+    height: 45px;
+}
+
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 25% 25% 46%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+.fooot4{
+    grid-column:1/4;
+}
+
+.foooter{
+    height: 280px;
+}
+}
+
+
+
+
+
+@media(min-width:320px) and (max-width:452px){
+.coooca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
+    width: 45px;
+    height: 45px;
+}
+
+.vk,.tg,.inst{
+    width: 35px;
+    height: 35px;
+}
+
+
+.vse{
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 25% 25% 46%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+.fooot4{
+    grid-column:1/4;
+}
+.podderzhka,.onas,.phooone,.emaaail{
+    font-size: 12px;
+}
+.foooter{
+    height: 300px;
+}
+}
+
+.razmeri{
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+
+
+/*верх--------------------------------------------------------------------------------------------------------------------*/
+
+.header{
+width: 100%;
+background-color: aqua;
+height: 80px;
+padding-top: 20px;
+
+  }
+  
+  .logotip{
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: 2px solid black;
+  }
+  
+  .photographia{
+    width: 40px;
+    margin-left: -2px;
+  }
+  
+  .nazva{
+  color: #0E858C;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: -57px;
+  font-size: 22px;
+  }
+  /*-----------------------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  
+  body{
+    margin: 0;
+  }
+
+  .osnova{
+    background-color: aqua;
+    height: 2500px;
+    }
+    
+    .podosnova{
+      background-color: white;
+      height: 2450px;
+      width: 90%;
+     margin: auto;  /*по центру*/
+     border-radius: 20px;
+    }
+
+    .now{
+        color: aqua;
+        text-align: center;
+        font-size: 40px; 
+        margin-top: 0px;
+    }
+
+    .boeviki,.komedii,.drami{
+        color: white;
+        background-color: aqua;
+        width: 160px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 33px;
+        margin: auto;
+        text-align: center;
+       margin-bottom: 20px;
+    }
+
+
+
+    .priklucheniya,.multiki{
+      color: white;
+      background-color: aqua;
+      width: 230px;
+      height: 40px;
+      border-radius: 20px;
+      font-size: 33px;
+      margin: auto;
+      text-align: center;
+     margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+    .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .bilet{
+      width: 180px;
+      background-color: #B0B8ED;
+      height: 30px;
+      margin: auto;
+      border-radius: 20px;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 15px;
+      
+    }
+
+    .soobsh{
+      font-size: 20px;
+      margin: 0;
+      margin-right: 10px;
+      margin-top: 2px;
+      text-decoration: none;
+      color: black;
+    }
+    
+    .ticket{
+      margin-right: 10px;
+    }
+
+    .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16{
+      border-radius: 10px;
+    }
+
+    .bbbilet{
+      color: black;
+    }
+
+
+  
+/*----------*/
+
+
+
+
+  .kartinka14{
+    height: 328px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+    margin: 0;  /* для body*/
+}
+.Podderzhka,.Politika,.email,.telephone{
+    font-size:20px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 365px;    /*supeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerp*/
+    background-color: #5F5A5A;
+    
+  }
+  
+  .foot1, .foot2,.foot3 {
+    display: inline-block; /* Делаем блоки строчными */
+    vertical-align: center; /* Выравниваем по верхнему краю */
+    color: rgb(255, 255, 255);
+    width: 33%; /* Делаем блоки примерно равными */
+  }
+  
+  .Vazhno, .contakti,.Seti {
+    font-size: 30px; /* Делаем одинаковый размер */
+  }
+  
+.photo1{
+margin-left: -20px;
+}
+
+
+
+.Vazhno,.Podderzhka,.Politika,.contakti,.telephone,.email,.seti,.Nashi{
+  margin-left: 100px;
+}
+
+
+
+
+.Nashi{
+    font-size: 25px;
+    color: white;
+}
+
+.coca{
+    width: 120px;
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+.netflix{
+    width: 80px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.subaru{
+  width: 85px;
+  margin-left: 20px;
+  margin-bottom:15px ;
+}
+.lego{
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nvidia{
+  width: 70px;
+  margin-left:20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*чтобы виза с мастеркард стояли на одном уровне с партнерами*/
+.foot4,.foot5{
+  display: inline-block;
+  
+}
+
+
+.visa{
+  width: 35px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+.mastercard{
+  width: 35px;
+  margin-left: 10px;
+margin-bottom: 20px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+
+.bilet:hover {
+  animation: grow 1s forwards;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+@media (min-width:320px) and (max-width:422px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+    display: block;
+  }
+ 
+
+
+
+
+  .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
+    text-align: center;
+
+  }
+
+  .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16,.kartinka17,.kartinka18,.kartinka19,.kartinka20{
+    width: 175px;
+  }
+
+
+  .bilet{
+   margin-bottom: 30px;
+   width: 150px;
+   margin-top: 7px;
+
+  }
+
+.soobsh{
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+.ticket{
+  width: 20px;
+}
+
+#boy,#mult,#drami,#prik,#kom{
+  font-size: 20px;
+}
+
+#mult,#drami,#prik,#kom{
+  margin-top: 50px;
+}
+
+.boeviki,.komedii,.priklucheniya,.drami,.multiki{
+  width: 130px;
+  height: 25px;
+}
+
+.osnova{
+  height: 6880px;
+}
+.podosnova{
+  height: 6850px;
+}
+
+
+
+
+
+
+.Vazhno{
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+
+.Podderzhka,.Politika{
+  font-size: 8px;
+  margin-left: 10px;
+  
+}
+
+.contakti{
+  margin-left: 0;
+  font-size: 10px;
+  padding-top: 2px;
+margin-top: 0;
+
+}
+
+.telephone,.email{
+  font-size: 8px;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-left: 0;
+}
+.email{
+  font-size: 6px;
+}
+
+.foot1{
+width: 100px;
+}
+
+.foot2{
+  width: 80px;
+}
+
+
+.Politika{
+  font-size: 6px;
+}
+
+.Seti{
+  font-size: 10px;
+  margin: 0;
+  padding-bottom: 17px;
+  padding-left: 7px;
+  
+}
+.photo1,.photo2,.photo3{
+  width: 15px;
+  margin: 0;
+  text-align: center;
+}
+.foot3{
+  height: 30px;
+  margin-top: 0;
+  
+}
+
+.Nashi{
+  font-size: 10px;
+  margin-left: 10px;
+}
+.coca,.netflix,.subaru,.nvidia,.lego{
+  width: 30px;
+  margin-left: 5px;
+}
+.coca{
+  padding-left: 10px;
+  
+  margin: 0;
+}
+
+
+.visa,.mastercard{
+width: 13px;
+}
+
+.visa{
+  margin-left: 270px;
+  margin-bottom: 0;
+}
+.mastercard{
+  margin-left:3px ;
+  margin-bottom: 0;
+}
+
+.foot4{
+  height: 70px;
+}
+
+.footer{
+  height: 100%;
+}
+.foot5{
+  height: 15px;
+}
+.nvidia,.lego,.subaru,.coca,.netflix{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+.now{
+  font-size: 24px;
+}
+
+
+
+.photographia{
+  width: 26px;
+}
+.logotip{
+ height: 26px;
+ width: 100px;
+}
+.header{
+  height: 50px;
+}
+.nazva{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.kartinka14{
+  height: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
+
+
+.film19{
+  margin-bottom: 30px;
+}
+.razmeri{
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ryad1 {
+  display: flex; /* Включаем flex-контейнер */
+  flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+  gap: 20px; /* Добавляем отступы между элементами */
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+}
+
+
+
+
+
+
+@media (min-width:423px) and (max-width:644px){
+
+  .film4 .bilet{
+    margin-top: 13px;
+  }
+  .film8 .bilet{
+    margin-top: 13px;
+  }
+  .film13 .bilet{
+    margin-top: 13px;
+  }
+  .film16 .bilet{
+    margin-top: 12px;
+  }
+  .film19 .bilet{
+    margin-top: 13px;
+  }
+  .film20 .bilet{
+    margin-top: 12px;
+  }
+
+
+  .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+     display: block;
+   }
+  
+ 
+ 
+ 
+ 
+   .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
+     text-align: center;
+ 
+   }
+ 
+   .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16,.kartinka17,.kartinka18,.kartinka19,.kartinka20{
+     width: 175px;
+   }
+ 
+ 
+   .bilet{
+    margin-bottom: 30px;
+    width: 150px;
+    margin-top: 7px;
+ 
+   }
+ 
+ .soobsh{
+   font-size: 16px;
+   padding-left: 8px;
+   padding-top: 3px;
+ }
+ .ticket{
+   width: 20px;
+ }
+ 
+ #boy,#mult,#drami,#prik,#kom{
+   font-size: 20px;
+ }
+ 
+ #mult,#drami,#prik,#kom{
+   margin-top: 50px;
+ }
+ 
+ .boeviki,.komedii,.priklucheniya,.drami,.multiki{
+   width: 130px;
+   height: 25px;
+ }
+ 
+ .osnova{
+   height: 3680px;
+ }
+ .podosnova{
+   height: 3650px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .Vazhno{
+   font-size: 10px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-bottom: 2px;
+ }
+ 
+ .Podderzhka,.Politika{
+   font-size: 8px;
+   margin-left: 10px;
+   
+ }
+ 
+ .contakti{
+   margin-left: 0;
+   font-size: 10px;
+   padding-top: 2px;
+ margin-top: 0;
+ 
+ }
+ 
+ .telephone,.email{
+   font-size: 8px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-left: 0;
+ }
+ .email{
+   font-size: 6px;
+ }
+ 
+ .foot1{
+ width: 100px;
+ }
+ 
+ .foot2{
+   width: 80px;
+ }
+ 
+ 
+ .Politika{
+   font-size: 6px;
+ }
+ 
+ .Seti{
+   font-size: 10px;
+   margin: 0;
+   padding-bottom: 17px;
+   padding-left: 7px;
+   
+ }
+ .photo1,.photo2,.photo3{
+   width: 15px;
+   margin: 0;
+   text-align: center;
+ }
+ .foot3{
+   height: 30px;
+   margin-top: 0;
+   
+ }
+ 
+ .Nashi{
+   font-size: 10px;
+   margin-left: 10px;
+ }
+ .coca,.netflix,.subaru,.nvidia,.lego{
+   width: 30px;
+   margin-left: 5px;
+ }
+ .coca{
+   padding-left: 10px;
+   
+   margin: 0;
+ }
+ 
+ 
+ .visa,.mastercard{
+ width: 13px;
+ }
+ 
+ .visa{
+   margin-left: 270px;
+   margin-bottom: 0;
+ }
+ .mastercard{
+   margin-left:3px ;
+   margin-bottom: 0;
+ }
+ 
+ .foot4{
+   height: 70px;
+ }
+ 
+ .footer{
+   height: 100%;
+ }
+ .foot5{
+   height: 15px;
+   width: 96%;
+ }
+ .nvidia,.lego,.subaru,.coca,.netflix{
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+ 
+ 
+ .now{
+   font-size: 24px;
+ }
+ 
+ 
+ 
+ .photographia{
+   width: 26px;
+ }
+ .logotip{
+  height: 26px;
+  width: 100px;
+ }
+ .header{
+   height: 50px;
+ }
+ .nazva{
+   font-size: 16px;
+   text-align: center;
+   padding-top: 16px;
+ }
+ 
+ .visa{
+  margin-left: 91%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .kartinka14{
+   height: 270px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
+ 
+ 
+ .film19{
+   margin-bottom: 30px;
+ }
+ .razmeri{
+   margin: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .ryad1 {
+   display: flex; /* Включаем flex-контейнер */
+   flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+   gap: 20px; /* Добавляем отступы между элементами */
+   flex-wrap: wrap;
+   justify-content: center;
+ 
+
+
+
+ 
+ }
+ 
+ }
+
+ 
+@media (min-width:645px) and (max-width:767px){
+
+  .film4 .bilet{
+    margin-top: 13px;
+  }
+  .film8 .bilet{
+    margin-top: 13px;
+  }
+  .film13 .bilet{
+    margin-top: 13px;
+  }
+  .film16 .bilet{
+    margin-top: 12px;
+  }
+  .film19 .bilet{
+    margin-top: 13px;
+  }
+  .film20 .bilet{
+    margin-top: 12px;
+  }
+
+
+  .film5 .bilet{
+    margin-top: 23px;
+  }
+  .film6 .bilet{
+    margin-top: 23px;
+  }
+  .film15 .bilet{
+    margin-top: 26px;
+  }
+  .film19 .bilet{
+    margin-top: 7px;
+  }
+
+
+
+
+
+
+  .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+     display: block;
+   }
+  
+ 
+ 
+ 
+ 
+   .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
+     text-align: center;
+ 
+   }
+ 
+   .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16,.kartinka17,.kartinka18,.kartinka19,.kartinka20{
+     width: 175px;
+   }
+ 
+ 
+   .bilet{
+    margin-bottom: 30px;
+    width: 150px;
+    margin-top: 7px;
+ 
+   }
+ 
+ .soobsh{
+   font-size: 16px;
+   padding-left: 8px;
+   padding-top: 3px;
+ }
+ .ticket{
+   width: 20px;
+ }
+ 
+ #boy,#mult,#drami,#prik,#kom{
+   font-size: 20px;
+ }
+ 
+ #mult,#drami,#prik,#kom{
+   margin-top: 50px;
+ }
+ 
+ .boeviki,.komedii,.priklucheniya,.drami,.multiki{
+   width: 130px;
+   height: 25px;
+ }
+ 
+ .osnova{
+   height: 3750px;
+ }
+ .podosnova{
+   height: 3700px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .Vazhno{
+   font-size: 10px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-bottom: 2px;
+ }
+ 
+ .Podderzhka,.Politika{
+   font-size: 8px;
+   margin-left: 10px;
+   
+ }
+ 
+ .contakti{
+   margin-left: 0;
+   font-size: 10px;
+   padding-top: 2px;
+ margin-top: 0;
+ 
+ }
+ 
+ .telephone,.email{
+   font-size: 8px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-left: 0;
+ }
+ .email{
+   font-size: 6px;
+ }
+ 
+ .foot1{
+ width: 100px;
+ }
+ 
+ .foot2{
+   width: 80px;
+ }
+ 
+ 
+ .Politika{
+   font-size: 6px;
+ }
+ 
+ .Seti{
+   font-size: 10px;
+   margin: 0;
+   padding-bottom: 17px;
+   padding-left: 7px;
+   
+ }
+ .photo1,.photo2,.photo3{
+   width: 15px;
+   margin: 0;
+   text-align: center;
+ }
+ .foot3{
+   height: 30px;
+   margin-top: 0;
+   
+ }
+ 
+ .Nashi{
+   font-size: 10px;
+   margin-left: 10px;
+ }
+ .coca,.netflix,.subaru,.nvidia,.lego{
+   width: 30px;
+   margin-left: 5px;
+ }
+ .coca{
+   padding-left: 10px;
+   
+   margin: 0;
+ }
+ 
+ 
+ .visa,.mastercard{
+ width: 13px;
+ }
+ 
+ .visa{
+   margin-left: 91%;
+   margin-bottom: 0;
+ }
+ .mastercard{
+   margin-left:3px ;
+   margin-bottom: 0;
+ }
+ 
+ .foot4{
+   height: 70px;
+ }
+ 
+ .footer{
+   height: 100%;
+ }
+ .foot5{
+   height: 15px;
+   width: 94%;
+ }
+ .nvidia,.lego,.subaru,.coca,.netflix{
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+ 
+ 
+ .now{
+   font-size: 24px;
+ }
+ 
+ 
+ 
+ .photographia{
+   width: 26px;
+ }
+ .logotip{
+  height: 26px;
+  width: 100px;
+ }
+ .header{
+   height: 50px;
+ }
+ .nazva{
+   font-size: 16px;
+   text-align: center;
+   padding-top: 16px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .kartinka14{
+   height: 270px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
+ 
+ 
+ .film19{
+   margin-bottom: 30px;
+ }
+ .razmeri{
+   margin: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .ryad1 {
+   display: flex; /* Включаем flex-контейнер */
+   flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+   gap: 20px; /* Добавляем отступы между элементами */
+   flex-wrap: wrap;
+   justify-content: center;
+ 
+ 
+ }
+ 
+ }
+
+
+
+
+
+
+ 
+@media (min-width:768px) and (max-width:866px){
+
+  .film4 .bilet{
+    margin-top: 13px;
+  }
+  .film8 .bilet{
+    margin-top: 13px;
+  }
+  .film13 .bilet{
+    margin-top: 13px;
+  }
+  .film16 .bilet{
+    margin-top: 12px;
+  }
+  .film19 .bilet{
+    margin-top: 13px;
+  }
+  .film20 .bilet{
+    margin-top: 12px;
+  }
+
+
+  .film5 .bilet{
+    margin-top: 23px;
+  }
+  .film6 .bilet{
+    margin-top: 23px;
+  }
+  .film15 .bilet{
+    margin-top: 26px;
+  }
+  .film19 .bilet{
+    margin-top: 7px;
+  }
+
+
+
+
+
+
+  .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+     display: block;
+   }
+  
+ 
+ 
+ 
+ 
+   .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
+     text-align: center;
+ 
+   }
+ 
+   .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16,.kartinka17,.kartinka18,.kartinka19,.kartinka20{
+     width: 175px;
+   }
+ 
+ 
+   .bilet{
+    margin-bottom: 30px;
+    width: 150px;
+    margin-top: 7px;
+ 
+   }
+ 
+ .soobsh{
+   font-size: 16px;
+   padding-left: 8px;
+   padding-top: 3px;
+ }
+ .ticket{
+   width: 20px;
+ }
+ 
+ #boy,#mult,#drami,#prik,#kom{
+   font-size: 20px;
+ }
+ 
+ #mult,#drami,#prik,#kom{
+   margin-top: 50px;
+ }
+ 
+ .boeviki,.komedii,.priklucheniya,.drami,.multiki{
+   width: 130px;
+   height: 25px;
+ }
+ 
+ .osnova{
+   height: 3750px;
+ }
+ .podosnova{
+   height: 3700px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .Vazhno{
+   font-size: 10px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-bottom: 2px;
+ }
+ 
+ .Podderzhka,.Politika{
+   font-size: 8px;
+   margin-left: 10px;
+   
+ }
+ 
+ .contakti{
+   margin-left: 0;
+   font-size: 10px;
+   padding-top: 2px;
+ margin-top: 0;
+ 
+ }
+ 
+ .telephone,.email{
+   font-size: 8px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-left: 0;
+ }
+ .email{
+   font-size: 6px;
+ }
+ 
+ .foot1{
+ width: 100px;
+ }
+ 
+ .foot2{
+   width: 80px;
+ }
+ 
+ 
+ .Politika{
+   font-size: 6px;
+ }
+ 
+ .Seti{
+   font-size: 10px;
+   margin: 0;
+   padding-bottom: 17px;
+   padding-left: 7px;
+   
+ }
+ .photo1,.photo2,.photo3{
+   width: 15px;
+   margin: 0;
+   text-align: center;
+ }
+ .foot3{
+   height: 30px;
+   margin-top: 0;
+   
+ }
+ 
+ .Nashi{
+   font-size: 10px;
+   margin-left: 10px;
+ }
+ .coca,.netflix,.subaru,.nvidia,.lego{
+   width: 30px;
+   margin-left: 5px;
+ }
+ .coca{
+   padding-left: 10px;
+   
+   margin: 0;
+ }
+ 
+ 
+ .visa,.mastercard{
+ width: 13px;
+ }
+ 
+ .visa{
+   margin-left: 270px;
+   margin-bottom: 0;
+ }
+ .mastercard{
+   margin-left:3px ;
+   margin-bottom: 0;
+ }
+ 
+ .foot4{
+   height: 70px;
+ }
+ 
+ .footer{
+   height: 100%;
+ }
+ .foot5{
+   height: 15px;
+   width: 96%;
+ }
+ .nvidia,.lego,.subaru,.coca,.netflix{
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+ 
+ 
+ .now{
+   font-size: 24px;
+ }
+ 
+ 
+ 
+ .photographia{
+   width: 26px;
+ }
+ .logotip{
+  height: 26px;
+  width: 100px;
+ }
+ .header{
+   height: 50px;
+ }
+ .nazva{
+   font-size: 16px;
+   text-align: center;
+   padding-top: 16px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .kartinka14{
+   height: 270px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
+ 
+ 
+ .film19{
+   margin-bottom: 30px;
+ }
+ .razmeri{
+   margin: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .visa{
+  margin-left: 91%;
+ }
+ 
+ 
+ 
+ 
+ 
+ .ryad1 {
+   display: flex; /* Включаем flex-контейнер */
+   flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+   gap: 20px; /* Добавляем отступы между элементами */
+   flex-wrap: wrap;
+   justify-content: center;
+ 
+ 
+ }
+ 
+ }
+
+ 
+@media (min-width:867px) and (max-width:1149px){
+
+  .film4 .bilet{
+    margin-top: 13px;
+  }
+  .film8 .bilet{
+    margin-top: 13px;
+  }
+  .film13 .bilet{
+    margin-top: 13px;
+  }
+  .film16 .bilet{
+    margin-top: 12px;
+  }
+  .film19 .bilet{
+    margin-top: 13px;
+  }
+  .film20 .bilet{
+    margin-top: 12px;
+  }
+
+
+  .film5 .bilet{
+    margin-top: 23px;
+  }
+  .film6 .bilet{
+    margin-top: 23px;
+  }
+  .film15 .bilet{
+    margin-top: 26px;
+  }
+  .film19 .bilet{
+    margin-top: 7px;
+  }
+
+
+
+
+
+
+  .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
+     display: block;
+   }
+  
+ 
+ 
+ 
+ 
+   .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
+     text-align: center;
+ 
+   }
+ 
+   .kartinka1,.kartinka2,.kartinka3,.kartinka4,.kartinka5,.kartinka6,.kartinka7,.kartinka8,.kartinka9,.kartinka10,.kartinka11,.kartinka12,.kartinka13,.kartinka14,.kartinka15,.kartinka16,.kartinka17,.kartinka18,.kartinka19,.kartinka20{
+     width: 175px;
+   }
+ 
+ 
+   .bilet{
+    margin-bottom: 30px;
+    width: 150px;
+    margin-top: 7px;
+ 
+   }
+ 
+ .soobsh{
+   font-size: 16px;
+   padding-left: 8px;
+   padding-top: 3px;
+ }
+ .ticket{
+   width: 20px;
+ }
+ 
+ #boy,#mult,#drami,#prik,#kom{
+   font-size: 20px;
+ }
+ 
+ #mult,#drami,#prik,#kom{
+   margin-top: 50px;
+ }
+ 
+ .boeviki,.komedii,.priklucheniya,.drami,.multiki{
+   width: 130px;
+   height: 25px;
+ }
+ 
+ .osnova{
+   height: 2100px;
+ }
+ .podosnova{
+   height: 2050px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .Vazhno{
+   font-size: 10px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-bottom: 2px;
+ }
+ 
+ .Podderzhka,.Politika{
+   font-size: 8px;
+   margin-left: 10px;
+   
+ }
+ 
+ .contakti{
+   margin-left: 0;
+   font-size: 10px;
+   padding-top: 2px;
+ margin-top: 0;
+ 
+ }
+ 
+ .telephone,.email{
+   font-size: 8px;
+   margin-left: 10px;
+   margin-top: 0;
+   margin-left: 0;
+ }
+ .email{
+   font-size: 6px;
+ }
+ 
+ .foot1{
+ width: 100px;
+ }
+ 
+ .foot2{
+   width: 80px;
+ }
+ 
+ 
+ .Politika{
+   font-size: 6px;
+ }
+ 
+ .Seti{
+   font-size: 10px;
+   margin: 0;
+   padding-bottom: 17px;
+   padding-left: 7px;
+   
+ }
+ .photo1,.photo2,.photo3{
+   width: 15px;
+   margin: 0;
+   text-align: center;
+ }
+ .foot3{
+   height: 30px;
+   margin-top: 0;
+   
+ }
+ 
+ .Nashi{
+   font-size: 10px;
+   margin-left: 10px;
+ }
+ .coca,.netflix,.subaru,.nvidia,.lego{
+   width: 30px;
+   margin-left: 5px;
+ }
+ .coca{
+   padding-left: 10px;
+   
+   margin: 0;
+ }
+ 
+ 
+ .visa,.mastercard{
+ width: 13px;
+ }
+ 
+ .visa{
+   margin-left:95%;
+   margin-bottom: 0;
+ }
+ .mastercard{
+   margin-left:3px ;
+   margin-bottom: 0;
+ }
+ 
+ .foot4{
+   height: 70px;
+ }
+ 
+ .footer{
+   height: 100%;
+ }
+ .foot5{
+   height: 15px;
+ }
+ .nvidia,.lego,.subaru,.coca,.netflix{
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+ 
+ 
+ .now{
+   font-size: 24px;
+ }
+ 
+ 
+ 
+ .photographia{
+   width: 26px;
+ }
+ .logotip{
+  height: 26px;
+  width: 100px;
+ }
+ .header{
+   height: 50px;
+ }
+ .nazva{
+   font-size: 16px;
+   text-align: center;
+   padding-top: 16px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .kartinka14{
+   height: 270px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
+ 
+ 
+ .film19{
+   margin-bottom: 30px;
+ }
+ .razmeri{
+   margin: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .ryad1 {
+   display: flex; /* Включаем flex-контейнер */
+   flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
+   gap: 20px; /* Добавляем отступы между элементами */
+   flex-wrap: wrap;
+   justify-content: center;
+ 
+ 
+ }
+ 
+
+ .foot5{
+  width: 96%;
+ }
+
+ 
+ }
+
+

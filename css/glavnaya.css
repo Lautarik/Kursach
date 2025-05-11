@@ -1,0 +1,774 @@
+@charset "UTF-8";
+.logotip {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: 2px solid black;
+}
+
+.photographia {
+  width: 40px;
+  margin-left: -2px;
+}
+
+/*верх--------------------------------------------------------------------------------------------------------------------*/
+body {
+  margin: 0; /* для body*/
+}
+
+.header {
+  width: 100%;
+  background-color: #0E858C;
+  height: 70px;
+  padding-top: 5px;
+  margin: 0px;
+}
+
+.logotip {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.photographia {
+  width: 40px;
+  margin-left: -2px;
+}
+
+.nazva {
+  color: #0E858C;
+  margin-left: 55px;
+  margin-top: -57px;
+  font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.obsh, .profil, .vop, .pod, .inf, .zhan {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vop {
+  margin-left: 650px;
+  font-size: 22px;
+  color: white;
+}
+
+.profil, .pod, .inf, .zhan {
+  font-size: 22px;
+  margin-left: 20px;
+  color: white;
+}
+
+header a {
+  color: rgb(255, 255, 255); /* Стандартный цвет ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+}
+
+header a:visited {
+  color: rgb(255, 255, 255); /* Оставляет цвет таким же */
+}
+
+header a:active {
+  color: rgb(255, 255, 255); /* Цвет при нажатии */
+}
+
+main {
+  background-color: aqua;
+  width: 100%;
+  height: 1400px;
+}
+
+.pop {
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.now1, .now2, .now3, .now4, .now5, .now6, .skor1, .skor2, .skor3, .skor4 {
+  padding-top: 30px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.now1 {
+  padding-left: 40px;
+}
+
+.pop {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 30px;
+}
+
+.now1, .now2, .now3, .now4, .now5, .now6, .skor1, .skor2, .skor3, .skor4 {
+  -webkit-transform: perspective(400px) rotateY(20deg);
+          transform: perspective(400px) rotateY(20deg);
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out; /* Плавное изменение */
+}
+
+.now1:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.now2:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.now3:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.now4:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.now5:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.now6:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.skor1:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.skor2:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.skor3:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.skor4:hover {
+  -webkit-transform: perspective(400px) rotateY(0deg);
+          transform: perspective(400px) rotateY(0deg); /* Возвращение в нормальное положение */
+}
+
+.skor2, .skor3, .skor4 {
+  margin-left: 23px;
+}
+
+.zh {
+  background-color: #ABE492;
+  width: 70%;
+  height: 250px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+  margin-top: 140px;
+}
+
+.nez {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.otpravit {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 210px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.but {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.mask {
+  margin-left: 0;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.nowf1, .nowf2, .nowf3, .nowf4, .nowf5, .nowf6 {
+  height: 325px;
+}
+
+.vse1, .vse2, .vse3, .vse4, .vse5 {
+  display: inline;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+}
+
+.f {
+  display: inline-block;
+  margin: 7px;
+  margin-top: 50px;
+}
+
+button {
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.skor {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.skorf1, .skorf2, .skorf3, .skorf4 {
+  height: 325px;
+}
+
+.mag {
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+  margin-top: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #5F5A5A;
+}
+
+.foot1, .foot2, .foot3 {
+  display: inline-block; /* Делаем блоки строчными */
+  vertical-align: center; /* Выравниваем по верхнему краю */
+  color: rgb(255, 255, 255);
+  width: 33%; /* Делаем блоки примерно равными */
+}
+
+.Vazhno, .contakti, .Seti {
+  font-size: 30px; /* Делаем одинаковый размер */
+}
+
+.photo1 {
+  margin-left: -20px;
+}
+
+.Vazhno, .Podderzhka, .Politika, .contakti, .telephone, .email, .seti, .Nashi {
+  margin-left: 100px;
+}
+
+.Nashi {
+  font-size: 25px;
+  color: white;
+}
+
+.coca {
+  width: 120px;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.netflix {
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.subaru {
+  width: 85px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.lego {
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nvidia {
+  width: 70px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*чтобы виза с мастеркард стояли на одном уровне с партнерами*/
+.foot4, .foot5 {
+  display: inline-block;
+}
+
+.visa {
+  width: 35px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+.mastercard {
+  width: 35px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+#podd, #pol {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@-webkit-keyframes animation1 {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes animation1 {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: red;
+  }
+}
+.magia {
+  -webkit-animation: animation1 5s infinite ease-in-out;
+          animation: animation1 5s infinite ease-in-out;
+}
+
+.knopla {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .logotip {
+    width: 130px;
+  }
+  .nazva {
+    font-size: 20px;
+    padding-top: 3px;
+  }
+  main {
+    height: 3000px;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 130px;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  .vop {
+    margin-left: 10px;
+  }
+  .vop, .pod, .zhan, .inf, .profil {
+    font-size: 10px;
+  }
+  .image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; /* Центрируем элементы горизонтально */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Центрируем элементы вертикально */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; /* Позволяем перенос строк */
+    gap: 10px; /* Отступ между элементами */
+    height: 100vh; /* Делаем контейнер на всю высоту экрана (если нужно) */
+  }
+  .now1, .now2, .now3, .now4, .now5, .now6 {
+    padding: 0;
+  }
+  .nowf1, .nowf2, .nowf3, .nowf4, .nowf5, .nowf6 {
+    width: 150px;
+    height: 245px;
+  }
+  .now1, .now2, .now3, .now4, .now5, .now6,
+  .skor1, .skor2, .skor3, .skor4 {
+    -webkit-transform: none !important;
+        -ms-transform: none !important;
+            transform: none !important; /* Убираем перспективу */
+    -webkit-transition: none !important;
+    transition: none !important; /* Отключаем плавное изменение */
+  }
+  .image-container {
+    height: 550px;
+  }
+  .zh {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* Элементы идут вертикально */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Центрируем по горизонтали */
+    text-align: center;
+    gap: 15px; /* Отступ между блоками */
+    padding: 20px;
+  }
+  .but {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; /* если нужно, чтобы кнопки переходили на новую строку */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; /* центрирование элементов */
+    gap: 10px; /* расстояние между элементами */
+  }
+}
+@media (min-width: 319px) and (max-width: 442px) {
+  .image-container {
+    height: 520px;
+  }
+  .zh {
+    padding-top: 25px;
+    margin-top: 240px;
+    padding-bottom: 70px;
+    height: 385px;
+  }
+  .nez {
+    padding-top: 0;
+  }
+  .skor {
+    margin-top: 70px;
+  }
+  .skor-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; /* Распределение элементов равномерно */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Выравнивание по центру */
+    gap: 10px; /* Расстояние между элементами */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skorf1, .skorf2, .skorf3, .skorf4 {
+    width: 150px;
+    height: 245px;
+  }
+  .skor1, .skor2, .skor3, .skor4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  main {
+    height: 2700px;
+  }
+}
+@media (min-width: 443px) and (max-width: 469px) {
+  .image-container {
+    height: 520px;
+  }
+  .zh {
+    padding-top: 25px;
+    margin-top: 240px;
+    padding-bottom: 70px;
+  }
+  .skor-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; /* Распределение элементов равномерно */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Выравнивание по центру */
+    gap: 10px; /* Расстояние между элементами */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skorf1, .skorf2, .skorf3, .skorf4 {
+    width: 150px;
+    height: 245px;
+  }
+  .skor1, .skor2, .skor3, .skor4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  main {
+    height: 2000px;
+  }
+}
+@media (min-width: 470px) and (max-width: 629px) {
+  .image-container {
+    height: 520px;
+  }
+  .zh {
+    padding-top: 25px;
+    margin-top: 0;
+    padding-bottom: 70px;
+    height: 290px;
+  }
+  .skor {
+    margin-top: 80px;
+  }
+  .skor-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; /* Распределение элементов равномерно */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Выравнивание по центру */
+    gap: 10px; /* Расстояние между элементами */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skorf1, .skorf2, .skorf3, .skorf4 {
+    width: 150px;
+    height: 245px;
+  }
+  .skor1, .skor2, .skor3, .skor4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 630px) and (max-width: 656px) {
+  .image-container {
+    height: 620px;
+  }
+  .zh {
+    padding-top: 25px;
+    margin-top: 0;
+    height: 290px;
+  }
+  .nez {
+    margin-top: 10px;
+  }
+  .skor-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; /* Распределение элементов равномерно */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Выравнивание по центру */
+    gap: 10px; /* Расстояние между элементами */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skorf1, .skorf2, .skorf3, .skorf4 {
+    width: 150px;
+    height: 245px;
+  }
+  .skor1, .skor2, .skor3, .skor4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 657px) and (max-width: 768px) {
+  .image-container {
+    height: 620px;
+  }
+  .zh {
+    padding-top: 25px;
+    margin-top: 0;
+    height: 290px;
+  }
+  .nez {
+    margin-top: 10px;
+  }
+  .skor {
+    margin-top: 125px;
+  }
+  .skor-wrapper {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; /* Распределение элементов равномерно */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Выравнивание по центру */
+    gap: 10px; /* Расстояние между элементами */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skorf1, .skorf2, .skorf3, .skorf4 {
+    width: 150px;
+    height: 245px;
+  }
+  .skor1, .skor2, .skor3, .skor4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 435px) and (max-width: 442px) {
+  main {
+    height: 2150px;
+  }
+}
+@media (min-width: 443px) and (max-width: 600px) {
+  main {
+    height: 1900px;
+  }
+}
+.f {
+  margin: 0;
+}
+
+.otpravit {
+  margin: 0;
+  width: 150px;
+  height: 30px;
+}/*# sourceMappingURL=glavnaya.css.map */

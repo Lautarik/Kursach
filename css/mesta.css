@@ -1,0 +1,1199 @@
+@charset "UTF-8";
+/*верх--------------------------------------------------------------------------------------------------------------------*/
+body {
+  margin: 0; /* для body*/
+}
+
+.header {
+  width: 100%;
+  background-color: aqua;
+  height: 80px;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.logotip {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: 2px solid black;
+}
+
+.photographia {
+  width: 40px;
+  margin-left: -2px;
+}
+
+.nazva {
+  color: #0E858C;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: -57px;
+  font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.osnova {
+  background-color: aqua;
+  height: 700px;
+}
+
+.podosnova {
+  background-color: white;
+  height: 650px;
+  width: 90%;
+  margin: auto; /*по центру*/
+  border-radius: 20px;
+}
+
+.ekran {
+  background-color: black;
+  width: 835px;
+  height: 20px;
+  -webkit-clip-path: ellipse(100% 30px at center);
+          clip-path: ellipse(100% 30px at center);
+  border-radius: 60px;
+  padding-top: 120px;
+  margin: auto;
+}
+
+.kvadrat {
+  background-color: gray;
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.ryadone, .ryadtwo {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+  margin-left: 265px;
+}
+
+.ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+  padding-left: 130px;
+  text-align: center;
+}
+
+.ryadthree, .ryadfour {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.ryadfive, .ryadsix {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.ryadseven, .ryadeight {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.ryadnine, .ryadten {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.otpravit {
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  width: 210px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.but {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #5F5A5A;
+}
+
+.foot1, .foot2, .foot3 {
+  display: inline-block; /* Делаем блоки строчными */
+  vertical-align: center; /* Выравниваем по верхнему краю */
+  color: rgb(255, 255, 255);
+  width: 33%; /* Делаем блоки примерно равными */
+}
+
+.Vazhno, .contakti, .Seti {
+  font-size: 30px; /* Делаем одинаковый размер */
+}
+
+.photo1 {
+  margin-left: -20px;
+}
+
+.Vazhno, .Podderzhka, .Politika, .contakti, .telephone, .email, .seti, .Nashi {
+  margin-left: 100px;
+}
+
+.Nashi {
+  font-size: 25px;
+  color: white;
+}
+
+.coca {
+  width: 120px;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.netflix {
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.subaru {
+  width: 85px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.lego {
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nvidia {
+  width: 70px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*чтобы виза с мастеркард стояли на одном уровне с партнерами*/
+.foot4, .foot5 {
+  display: inline-block;
+}
+
+.visa {
+  width: 35px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+.mastercard {
+  width: 35px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.Seti {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 44px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/* Стиль для родительского контейнера, который содержит два ряда */
+.container-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* Выстраиваем элементы в строку */
+  gap: 20px; /* Расстояние между рядами (опционально) */
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; /* Если места мало, можно разрешить перенос */
+}
+
+/* Задаем двум рядам равномерное распределение по ширине */
+.ryad1,
+.ryad2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; /* Равномерное распределение ширины */
+}
+
+@media (max-width: 371px) {
+  .podosnova {
+    height: 500px;
+  }
+  .osnova {
+    height: 525px;
+  }
+  .ekran {
+    padding-top: 90px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 11px;
+    height: 11px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 11px;
+    width: 45%;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 7px; /* Дополнительные внутренние отступы (опционально) */
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 372px) and (max-width: 428px) {
+  .podosnova {
+    height: 510px;
+  }
+  .osnova {
+    height: 535px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 14px;
+    height: 14px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 12px;
+    width: 40%;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 8px; /* Дополнительные внутренние отступы (опционально) */
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 429px) and (max-width: 499px) {
+  .podosnova {
+    height: 520px;
+  }
+  .osnova {
+    height: 545px;
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 16px;
+    height: 16px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 40%;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 20px; /* Дополнительные внутренние отступы (опционально) */
+  }
+}
+@media (min-width: 500px) and (max-width: 571px) {
+  .podosnova {
+    height: 540px;
+  }
+  .osnova {
+    height: 565px;
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 20px;
+    height: 20px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 40%;
+    height: 25px;
+    margin-top: 25px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 20px; /* Дополнительные внутренние отступы (опционально) */
+  }
+}
+/* Если нужно сделать адаптив для мобильных устройств */
+@media (min-width: 572px) and (max-width: 768px) {
+  .podosnova {
+    height: 560px;
+  }
+  .osnova {
+    height: 585px;
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 24px;
+    height: 24px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 40%;
+    height: 25px;
+    margin-top: 25px;
+    max-width: 250px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 20px; /* Дополнительные внутренние отступы (опционально) */
+  }
+}
+@media (min-width: 769px) and (max-width: 1149px) {
+  .podosnova {
+    height: 560px;
+  }
+  .osnova {
+    height: 585px;
+  }
+  .ryadtwo {
+    margin-top: 20px;
+  }
+  .container-rows {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* На узких экранах можно выстроить ряды вертикально */
+  }
+  .ryadone, .ryadthree, .ryadfive, .ryadseven, .ryadnine {
+    padding: 0%;
+    margin: 0%;
+  }
+  .ryadtwo, .ryadfour, .ryadsix, .ryadeight, .ryadten {
+    margin-left: 30px;
+    padding: 0;
+  }
+  .kvadrat {
+    width: 24px;
+    height: 24px;
+  }
+  .ekran {
+    width: 80%;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 40%;
+    height: 25px;
+    margin-top: 25px;
+    max-width: 250px;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  #one {
+    max-width: 1200px;
+    text-align: center;
+    padding: 0 20px; /* Дополнительные внутренние отступы (опционально) */
+  }
+}
+.kvadrat {
+  background-color: lightblue;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#total {
+  font-size: 22px;
+  text-align: center;
+}
+
+.foooter {
+  width: 100%;
+  background-color: gray;
+  height: 200px;
+  color: white;
+}
+
+.vse {
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 15% 15% 26% 38%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+
+.onas, .podderzhkaaa, .aaattention, .phooone, .emaaail, .vsepart {
+  text-align: center;
+}
+
+.soc {
+  text-align: center;
+}
+
+.seeeti {
+  text-align: center;
+  font-size: 20px;
+}
+
+.part {
+  text-align: center;
+  font-size: 20px;
+}
+
+.coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+  width: 65px;
+  height: 65px;
+}
+
+.vk, .tg, .inst {
+  width: 45px;
+  height: 45px;
+}
+
+.aaattention, .kooontakti {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 453px) and (max-width: 699px) {
+  .coca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 65px;
+    height: 65px;
+  }
+  .vk, .tg, .inst {
+    width: 45px;
+    height: 45px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .foooter {
+    height: 280px;
+  }
+}
+@media (min-width: 320px) and (max-width: 452px) {
+  .coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 45px;
+    height: 45px;
+  }
+  .vk, .tg, .inst {
+    width: 35px;
+    height: 35px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .podderzhka, .onas, .phooone, .emaaail {
+    font-size: 12px;
+  }
+  .foooter {
+    height: 300px;
+  }
+}/*# sourceMappingURL=mesta.css.map */

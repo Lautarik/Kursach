@@ -1,0 +1,843 @@
+@charset "UTF-8";
+/*верх--------------------------------------------------------------------------------------------------------------------*/
+body {
+  margin: 0; /* для body*/
+}
+
+.nb {
+  margin-left: 25%;
+}
+
+.header {
+  width: 100%;
+  background-color: aqua;
+  height: 80px;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.logotip {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  border: 2px solid black;
+}
+
+.photographia {
+  width: 40px;
+  margin-left: -2px;
+}
+
+.nazva {
+  color: #0E858C;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: -57px;
+  font-size: 22px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#nowknopka {
+  max-width: 300px;
+  padding-left: 30%;
+  padding-right: 30%;
+  height: 35px;
+  background-color: aqua;
+  font-size: 23px;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+}
+
+.nb {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-left: 25%;
+  margin-right: 35%;
+}
+
+.osnova {
+  background-color: aqua;
+  height: 800px;
+}
+
+.podosnova {
+  background-color: white;
+  height: 750px;
+  width: 90%;
+  margin: auto; /*по центру*/
+  border-radius: 20px;
+}
+
+.nazvanie {
+  color: aqua;
+  font-size: 34px;
+  text-align: center;
+  margin: 0%;
+  padding-top: 20px;
+}
+
+.picture {
+  width: 325px;
+  border-radius: 20px;
+}
+
+.infa {
+  padding-left: 100px;
+  padding-top: 70px;
+}
+
+.kvadratiki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; /* Равномерное распределение */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* Выравнивание по вертикали */
+  width: 325px;
+  max-width: 200px; /* Настроить ширину */
+  padding-left: 165px;
+  padding-top: 20px;
+}
+
+.vozrast, .d, .ru {
+  width: 35px;
+  height: 35px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* Центрирование по горизонтали */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* Центрирование по вертикали */
+}
+
+.foooter {
+  width: 100%;
+  background-color: gray;
+  height: 200px;
+  color: white;
+}
+
+.vse {
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 15% 15% 26% 38%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+
+.onas, .podderzhkaaa, .aaattention, .phooone, .emaaail, .vsepart {
+  text-align: center;
+}
+
+.soc {
+  text-align: center;
+}
+
+.seeeti {
+  text-align: center;
+  font-size: 20px;
+}
+
+.part {
+  text-align: center;
+  font-size: 20px;
+}
+
+.coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+  width: 65px;
+  height: 65px;
+}
+
+.vk, .tg, .inst {
+  width: 45px;
+  height: 45px;
+}
+
+.aaattention, .kooontakti {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 453px) and (max-width: 699px) {
+  .coca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 65px;
+    height: 65px;
+  }
+  .vk, .tg, .inst {
+    width: 45px;
+    height: 45px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .foooter {
+    height: 280px;
+  }
+}
+@media (min-width: 320px) and (max-width: 452px) {
+  .coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 45px;
+    height: 45px;
+  }
+  .vk, .tg, .inst {
+    width: 35px;
+    height: 35px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .podderzhka, .onas, .phooone, .emaaail {
+    font-size: 12px;
+  }
+  .foooter {
+    height: 300px;
+  }
+}
+.obs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.opis {
+  width: 700px;
+  height: 500px;
+  margin-left: 180px;
+  margin-right: 70px;
+}
+
+.op {
+  text-align: center;
+  color: aqua;
+  font-size: 30px;
+}
+
+#movie-display {
+  font-size: 20px;
+}
+
+.nb {
+  margin-left: 31%;
+}
+
+.dropdown {
+  margin-top: 60px;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#cinema {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+#data {
+  margin-left: 180px;
+  margin-left: 0;
+}
+
+.otpravit {
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  width: 210px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 20px;
+}
+
+.but {
+  padding-left: 205px;
+  margin-top: 70px;
+}
+
+body {
+  margin: 0; /* для body*/
+}
+
+.Podderzhka, .Politika, .email, .telephone {
+  font-size: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 370px;
+  background-color: #5F5A5A;
+}
+
+.foot1, .foot2, .foot3 {
+  display: inline-block; /* Делаем блоки строчными */
+  vertical-align: center; /* Выравниваем по верхнему краю */
+  color: rgb(255, 255, 255);
+  width: 33%; /* Делаем блоки примерно равными */
+}
+
+.Vazhno, .contakti, .Seti {
+  font-size: 30px; /* Делаем одинаковый размер */
+}
+
+.photo1 {
+  margin-left: -20px;
+}
+
+.Vazhno, .Podderzhka, .Politika, .contakti, .telephone, .email, .seti, .Nashi {
+  margin-left: 100px;
+}
+
+.Nashi {
+  font-size: 25px;
+  color: white;
+}
+
+.coca {
+  width: 120px;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.netflix {
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.subaru {
+  width: 85px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.lego {
+  width: 80px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.nvidia {
+  width: 70px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/*чтобы виза с мастеркард стояли на одном уровне с партнерами*/
+.foot4, .foot5 {
+  display: inline-block;
+}
+
+.visa {
+  width: 35px;
+  margin-left: 700px;
+  margin-bottom: 20px;
+}
+
+.mastercard {
+  width: 35px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.Seti {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 44px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.opp {
+  width: 70%; /* Всегда занимает 70% ширины родителя */
+  max-width: 100%; /* Не выходит за рамки */
+  text-align: justify;
+  text-align: center;
+  margin: auto;
+  font-size: 110%;
+}
+
+.dropdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px; /* Отступ между элементами */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* Центрируем */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; /* Перенос элементов на узких экранах */
+}
+
+.dropdown {
+  width: 200px; /* Ширина каждого select */
+  padding: 10px;
+  font-size: 16px;
+}
+
+.photo1, .photo2, .photo3 {
+  width: 48px;
+  height: 48px;
+}
+
+@media (min-width: 401px) and (max-width: 1149px) {
+  #movie-display {
+    text-align: center;
+  }
+  .picture {
+    width: 90%;
+    margin-left: 12px;
+  }
+  .obs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* Элементы выстраиваются в столбик */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Центрируем */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 80%;
+  }
+  .infa {
+    padding: 0%;
+  }
+  .opis {
+    margin: 0;
+    max-width: 325px;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .osnova {
+    height: 1100px;
+  }
+  .podosnova {
+    height: 1075px;
+  }
+  #cinema {
+    margin-top: 100px;
+    margin-left: 0;
+    width: 180px;
+  }
+  #data {
+    margin-left: 0;
+    width: 180px;
+    margin-top: 20px;
+  }
+  .kvadratiki {
+    margin: auto;
+    padding: 0;
+    margin-top: 85px;
+  }
+  .dropdown-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    width: 98%;
+  }
+  .otpravit {
+    text-align: center;
+    font-size: 18px;
+  }
+  .but {
+    padding: 0;
+  }
+  .fr {
+    text-align: center;
+  }
+  .ryad1, .ryad2, .ryad3, .ryad4, .ryad5 {
+    display: block;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .dropdown option {
+    font-size: 8px; /* Уменьшает размер шрифта */
+    padding: 5px; /* Уменьшает внутренние отступы */
+    height: 15px;
+    width: 40px;
+    /* Регулирует высоту каждого элемента */
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 130px;
+    height: 25px;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  .opis {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+  }
+  .opis, #movie-display, .dropdown-container, .fr, .charac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .kvadratiki {
+    display: none;
+  }
+  #cinema {
+    margin-top: 10px;
+  }
+  .photo1, .photo2, .photo3 {
+    height: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  #movie-display {
+    text-align: center;
+  }
+  .picture {
+    width: 90%;
+    margin-left: 12px;
+  }
+  .obs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* Элементы выстраиваются в столбик */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* Центрируем */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 80%;
+  }
+  .infa {
+    padding: 0%;
+  }
+  .opis {
+    margin: 0;
+    max-width: 325px;
+  }
+  .foot5 {
+    width: 150px;
+  }
+  .visa {
+    margin: 100px;
+  }
+  .osnova {
+    height: 1100px;
+  }
+  .podosnova {
+    height: 1075px;
+  }
+  #cinema {
+    margin-top: 100px;
+    margin-left: 0;
+    width: 180px;
+  }
+  #data {
+    margin-left: 0;
+    width: 180px;
+    margin-top: 20px;
+  }
+  .kvadratiki {
+    margin: auto;
+    padding: 0;
+    margin-top: 85px;
+  }
+  .dropdown-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    width: 98%;
+  }
+  .otpravit {
+    text-align: center;
+    font-size: 18px;
+  }
+  .but {
+    padding: 0;
+  }
+  .fr {
+    text-align: center;
+  }
+  .ryad1, .ryad2, .ryad3, .ryad4, .ryad5 {
+    display: block;
+  }
+  .Vazhno {
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+  }
+  .Podderzhka, .Politika {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  .contakti {
+    margin-left: 0;
+    font-size: 10px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+  .telephone, .email {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .email {
+    font-size: 6px;
+  }
+  .foot1 {
+    width: 100px;
+  }
+  .foot2 {
+    width: 80px;
+  }
+  .Politika {
+    font-size: 6px;
+  }
+  .Seti {
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-left: 7px;
+  }
+  .photo1, .photo2, .photo3 {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .foot3 {
+    height: 30px;
+    margin-top: 0;
+  }
+  .foot4 {
+    height: 70px;
+  }
+  .footer {
+    height: 100%;
+  }
+  .Nashi {
+    font-size: 13px;
+    margin-left: 8px;
+  }
+  .coca, .netflix, .subaru, .lego, .nvidia {
+    width: 30px;
+    margin: 0;
+  }
+  .visa, .mastercard {
+    margin: 0%;
+    width: 10px;
+    text-align: right;
+  }
+  .visa {
+    padding-left: 110px;
+  }
+  .dropdown option {
+    font-size: 8px; /* Уменьшает размер шрифта */
+    padding: 5px; /* Уменьшает внутренние отступы */
+    height: 15px;
+    width: 40px;
+    /* Регулирует высоту каждого элемента */
+  }
+  .Politika, .Podderzhka, .telephone, .email {
+    font-size: 8px;
+  }
+  .otpravit {
+    font-size: 13px;
+    width: 130px;
+    height: 25px;
+    margin-top: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  .coca {
+    margin-left: 10px;
+  }
+  .visa {
+    padding-left: 0;
+    text-align: right;
+  }
+  .foot5 {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* Включаем Flexbox */
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; /* Выровнять содержимое по правому краю */
+  }
+  .foot3 {
+    width: 20%;
+  }
+  .opis {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+  }
+  .opis, #movie-display, .dropdown-container, .fr, .charac {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .kvadratiki {
+    display: none;
+  }
+  #movie-display {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=chernobil.css.map */
