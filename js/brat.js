@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       })
       .catch(error => {
         console.error("Ошибка:", error);
-        document.getElementById("movie-display").textContent = "Демобилизованный из армии Данила Багров возвращается в родной город. Скучная, однообразная жизнь провинции не может устроить крепкого русского парня, и он решает поехать в Питер, испытать себя. Тем более, что там, по слухам уже давно процветает его старший брат. Но «новая русская» жизнь северной столицы оказывается слишком неожиданной, а родной брат Данилы зарабатывает на жизнь заказными убийствами. Даниле предстоит многое узнать… и со многими разобраться.";
+        document.getElementById("movie-display").textContent = "Демобилизованный из армии Данила Багров возвращается в родной город. Скучная, однообразная жизнь провинции не может устроить крепкого русского парня, и он решает поехать в Питер, испытать себя. Даниле предстоит многое узнать… и со многими разобраться.";
 
 
       });
@@ -49,3 +49,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Находим нужные элементы
+  const cinemaSelect = document.getElementById("cinema");
+  const dateSelect = document.getElementById("data");
+  const placesLink = document.getElementById("nowknopka");
+
+  // Обработчик клика по ссылке "Места"
+  placesLink.addEventListener("click", function (event) {
+    // Если выбран вариант по умолчанию для кинотеатра или даты
+    if (cinemaSelect.selectedIndex === 0 || dateSelect.selectedIndex === 0) {
+      alert("Ошибка: Пожалуйста, выберите кинотеатр и дату!");
+      // Предотвращаем переход по ссылке
+      event.preventDefault();
+    }
+  });
+});
