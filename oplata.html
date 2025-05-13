@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/oplata.css">
-    <script src="oplata.js"></script>
+    <script src="oplata2.js"></script>
 
 </head>
 <body>
@@ -34,29 +34,29 @@
                 <div class="podosnova"><!---->
 
                     <div class="pole">
-                        <input class="num" type="text" placeholder="Номер карты">
+                        <input class="num1" type="number" placeholder="Номер карты">
                     </div>
 
                     <div class="pole">
-                        <input class="num" type="text" placeholder="CVC/CVV код">
+                        <input class="num2" type="number" placeholder="CVC/CVV код">
                     </div>
 
+                    <div class="pole">
+                        <input class="num3" type="email" placeholder="Email">
+                    </div>
 
-<div id="mySelect">
-<select class="mySelect" name="mySelect">
-  <option value="">-- Выберите платежную систему --</option>
-  <option value="option1">Visa</option>
-  <option value="option2">Mastercard</option>
-</select>
+<div class="ras">
+<input type="checkbox" id="agree">
+<label for="agree">Подписка на рассылку</label>
 </div>
-
                   
                     
                     <div class="but">
-                        <form  method="post">
+                        <form  method="post" action="index.html">
                             <button class="otpravit" type="submit">Оплатить</button>
                         </form>
                         </div>
+
 
 
 
