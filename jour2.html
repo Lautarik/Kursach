@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/perevodchik.css">
-    <script src="js/perevodchik.js" defer></script>
+    <link rel="stylesheet" href="brat2.css">
+    <script src="brat2.js" defer></script>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
                 <div class="podosnova"><!---->
 
                     <div>
-                        <p class="nazvanie">Переводчик</p>
+                        <p id="movie-title" class="nazvanie">Journey to the center of the earth</p>
                      </div>
 
 
@@ -46,7 +46,7 @@
 
 
                      <div class="infa">
-                        <img class="picture" src="images/perevodchik.svg">
+                        <img class="picture" src="images/dino.svg">
                      </div>
 
 
@@ -63,7 +63,7 @@
 
                     <div class="dropdown-container">
                         <select id="cinema" class="dropdown">
-                          <option selected disabled>Выбор кинотеатра</option>
+                          <option value="" selected disabled>Выбор кинотеатра</option>
                           <option value="Адрес 1">Якубова 17</option>
                           <option value="Адрес 2">Флерова 32</option>
                           <option value="Адрес 3">Маяковского 55</option>
@@ -73,7 +73,7 @@
                         
                       
                         <select id="data" class="dropdown">
-                            <option selected disabled>Выбор даты</option>
+                            <option value="" selected disabled>Выбор даты</option>
                             <option value="Адрес 1">11.05.2025</option>
                             <option value="Адрес 2">12.05.2025</option>
                             <option value="Адрес 3">13.05.2025</option>
@@ -86,14 +86,13 @@
                     </div>
 
 
+<form action="mesta.html" method="get">
+    <button class="butic" type="submit">Отправить</button>
+</form>
 
 
-                          <div class="nb" style="margin-top: 50px;">
-                                <a href="mesta.html" id="nowknopka" class="button">Места</a>
 
-                            </div>
 
-                          
                     </div>
 
 
@@ -105,7 +104,7 @@
 
 <div class="charac">
                      <div class="kvadratiki">
-                     <div class="vozrast"><p>+3</p></div>
+                     <div class="vozrast"><p>+18</p></div>
                      <div class="d"><p>3D</p></div>
                      <div class="ru"><p>RU</p></div>
                      </div>
@@ -116,8 +115,7 @@
         </main>
 
 
-                         
-<footer class="foooter">
+         <footer class="foooter">
 
 
 
@@ -156,6 +154,7 @@
 
 
     </footer>
+            
             <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
             
 
