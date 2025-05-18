@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector("form").addEventListener("submit", function(event) {
+    document.getElementById("register-btn").addEventListener("click", function() {
         let inputs = document.querySelectorAll(".num");
+        let emailInput = document.querySelector('input[type="email"]');
         let allFilled = true;
+        let emailValid = true;
 
         inputs.forEach(input => {
             if (input.value.trim() === "") {
@@ -9,14 +11,19 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
+        // Проверка email с регулярным выражением
+        let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(emailInput.value.trim())) {
+            emailValid = false;
+        }
+
         if (!allFilled) {
-            event.preventDefault(); // Останавливаем отправку формы
             alert("Заполните все поля!");
+        } else if (!emailValid) {
+            alert("Введите корректный email!");
         } else {
             alert("Регистрация прошла успешно!");
-            setTimeout(function() {
-                window.location.href = "index.html"; // Перенос через 1 секунду
-            }, 1000);
+            window.location.href = "index.html"; // Переход на главную страницу
         }
     });
 });
