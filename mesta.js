@@ -4,21 +4,23 @@ document.addEventListener("DOMContentLoaded", function () {
     let selectedCount = 0;
     let totalSeats = squares.length;
 
-    // Генерируем случайные занятые места
+    // Генерируем случайные занятые места (20% от общего количества)
     let occupiedSeats = new Set();
-    while (occupiedSeats.size < Math.floor(totalSeats * 0.2)) { // 20% мест заняты
+    while (occupiedSeats.size < Math.floor(totalSeats * 0.2)) {
         let randomIndex = Math.floor(Math.random() * totalSeats);
         occupiedSeats.add(randomIndex);
     }
 
     squares.forEach((square, index) => {
-        // Если место занято, оно становится желтым и недоступным
+        // Если место занято, оно становится цветом lightcoral и недоступно для клика
         if (occupiedSeats.has(index)) {
             square.style.backgroundColor = 'lightcoral';
-            square.style.pointerEvents = 'none'; // Запрещает клики
+            square.style.pointerEvents = 'none';
         } else {
+            // Иначе устанавливаем стандартный цвет и обработчик клика
             square.style.backgroundColor = 'lightblue';
             square.addEventListener('click', function () {
+                // Переключаем выбор: если элемент светло-синий, выделяем его; если выделен, снимаем выделение
                 if (square.style.backgroundColor === 'lightblue') {
                     square.style.backgroundColor = 'lightgreen';
                     selectedCount++;
@@ -26,14 +28,25 @@ document.addEventListener("DOMContentLoaded", function () {
                     square.style.backgroundColor = 'lightblue';
                     selectedCount--;
                 }
+                // Обновляем информацию на странице
                 output.textContent = `Выбрано мест: ${selectedCount}, Сумма: ${selectedCount * 20} руб.`;
             });
         }
     });
 
-    // Сохранение выбранных мест в localStorage при переходе на оплату
+    // Обработчик клика для кнопки "Оплатить"
     document.querySelector(".otpravit").addEventListener("click", function () {
-        localStorage.setItem("selectedSeats", selectedCount);
-        localStorage.setItem("totalPrice", selectedCount * 20);
+        // Если места не выбраны, выводим предупреждение
+        if (selectedCount === 0) {
+            alert("Пожалуйста, выберите хотя бы одно место.");
+        } else {
+            // Сохраняем выбранные места и итоговую сумму в localStorage
+            localStorage.setItem("selectedSeats", selectedCount);
+            localStorage.setItem("totalPrice", selectedCount * 20);
+            // Выводим сообщение об успешной оплате
+            alert(`Вы выбрали ${selectedCount} мест на сумму ${selectedCount * 20} руб.`);
+            // Переходим на страницу оплаты
+            window.location.href = "oplata.html"; 
+        }
     });
 });
