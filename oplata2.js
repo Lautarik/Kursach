@@ -23,10 +23,15 @@ document.addEventListener("DOMContentLoaded", function () {
             errorMessages.push("Введите корректный email.");
         }
 
-        // Если есть ошибки, отменяем отправку формы и показываем одно окно с сообщениями
+        // Если есть ошибки, показываем их в alert и отменяем отправку формы
         if (errorMessages.length > 0) {
-            event.preventDefault(); // Останавливаем отправку формы
-            alert(errorMessages.join("\n")); // Показываем ошибки в одном alert
+            event.preventDefault();
+            alert(errorMessages.join("\n"));
+        } else {
+            // Если ошибок нет, отменяем отправку формы, показываем сообщение и осуществляем переход
+            event.preventDefault();
+            alert("Все оплачено!");
+            window.location.href = "index.html"; // Замените адрес на необходимый
         }
     });
 });
