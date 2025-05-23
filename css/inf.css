@@ -95,14 +95,14 @@ body {
 }
 
 .foot1, .foot2, .foot3 {
-  display: inline-block; /* Делаем блоки строчными */
-  vertical-align: center; /* Выравниваем по верхнему краю */
+  display: inline-block;
+  vertical-align: center;
   color: rgb(255, 255, 255);
-  width: 33%; /* Делаем блоки примерно равными */
+  width: 33%;
 }
 
 .Vazhno, .contakti, .Seti {
-  font-size: 30px; /* Делаем одинаковый размер */
+  font-size: 30px;
 }
 
 .photo1 {

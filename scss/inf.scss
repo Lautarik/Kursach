@@ -78,14 +78,6 @@ margin: 0px;
 }
 
 
-
-
-
-
-
-
-
-
 .Podderzhka,.Politika,.email,.telephone{
     font-size:20px;
   }
@@ -101,14 +93,14 @@ margin: 0px;
   }
   
   .foot1, .foot2,.foot3 {
-    display: inline-block; /* Делаем блоки строчными */
-    vertical-align: center; /* Выравниваем по верхнему краю */
+    display: inline-block; 
+    vertical-align: center; 
     color: rgb(255, 255, 255);
-    width: 33%; /* Делаем блоки примерно равными */
+    width: 33%; 
   }
   
   .Vazhno, .contakti,.Seti {
-    font-size: 30px; /* Делаем одинаковый размер */
+    font-size: 30px; 
   }
   
   .photo1{
@@ -121,8 +113,7 @@ margin: 0px;
   margin-left: 100px;
   }
   
-  
-  
+
   
   .Nashi{
     font-size: 25px;
@@ -1167,10 +1158,6 @@ margin: 0px;
     text-align: center;
 }
 
-
-
-
-
 @media(min-width:453px) and (max-width:699px){
 .coca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
     width: 65px;
@@ -1199,9 +1186,6 @@ margin: 0px;
     height: 280px;
 }
 }
-
-
-
 
 
 @media(min-width:320px) and (max-width:452px){

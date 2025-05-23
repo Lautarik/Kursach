@@ -241,6 +241,7 @@ padding-top: 20px;
 .foooter{
     height: 300px;
 }
+
 }
 
 
@@ -1009,6 +1010,12 @@ width: 100px;
   
   #movie-display{
     font-size:15px;
+  }
+
+  .fooot1{
+    .podderzhkaaa{
+      font-size: 12px;
+    }
   }
 
   

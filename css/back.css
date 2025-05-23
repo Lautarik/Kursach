@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.foooter {
+  width: 100%;
+  background-color: gray;
+  height: 200px;
+}
+
+.vse {
+  display: grid;
+  /* Задаём явно ширину каждого столбца в процентах,
+     например, 20%, 30%, 30% и 20% */
+  grid-template-columns: 15% 15% 26% 38%;
+  /* gap можно использовать для создания отступов между блоками */
+  gap: 2%;
+}
+
+.onas, .podderzhkaaa, .aaattention, .phooone, .emaaail, .vsepart {
+  text-align: center;
+}
+
+.soc {
+  text-align: center;
+}
+
+.seeeti {
+  text-align: center;
+  font-size: 20px;
+}
+
+.part {
+  text-align: center;
+  font-size: 20px;
+}
+
+.coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+  width: 65px;
+  height: 65px;
+}
+
+.vk, .tg, .inst {
+  width: 45px;
+  height: 45px;
+}
+
+.aaattention, .kooontakti {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 453px) and (max-width: 699px) {
+  .coca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 65px;
+    height: 65px;
+  }
+  .vk, .tg, .inst {
+    width: 45px;
+    height: 45px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .foooter {
+    height: 280px;
+  }
+}
+@media (min-width: 320px) and (max-width: 452px) {
+  .coooca, .netflixxx, .legooo, .subaruuu, .nvidiaaa {
+    width: 45px;
+    height: 45px;
+  }
+  .vk, .tg, .inst {
+    width: 35px;
+    height: 35px;
+  }
+  .vse {
+    display: grid;
+    /* Задаём явно ширину каждого столбца в процентах,
+       например, 20%, 30%, 30% и 20% */
+    grid-template-columns: 25% 25% 46%;
+    /* gap можно использовать для создания отступов между блоками */
+    gap: 2%;
+  }
+  .fooot4 {
+    grid-column: 1/4;
+  }
+  .podderzhka, .onas, .phooone, .emaaail {
+    font-size: 12px;
+  }
+  .foooter {
+    height: 300px;
+  }
+}/*# sourceMappingURL=back.css.map */

@@ -46,10 +46,6 @@
     text-align: center;
 }
 
-
-
-
-
 @media(min-width:453px) and (max-width:699px){
 .coca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
     width: 65px;
@@ -78,10 +74,6 @@
     height: 280px;
 }
 }
-
-
-
-
 
 @media(min-width:320px) and (max-width:452px){
 .coooca,.netflixxx,.legooo,.subaruuu,.nvidiaaa{
@@ -121,10 +113,6 @@
   margin-left: 20px;
 }
 
-
-
-/*верх--------------------------------------------------------------------------------------------------------------------*/
-
 .header{
 width: 100%;
 background-color: aqua;
@@ -154,10 +142,7 @@ padding-top: 20px;
   margin-top: -57px;
   font-size: 22px;
   }
-  /*-----------------------------------------------------------------------------------------------------------------------------------*/
-  
-  
-  
+
   body{
     margin: 0;
   }
@@ -209,15 +194,6 @@ padding-top: 20px;
   }
 
 
-
-
-
-
-
-
-
-
-
     .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
         display: flex;
         justify-content: space-around;
@@ -258,28 +234,10 @@ padding-top: 20px;
     }
 
 
-  
-/*----------*/
-
-
-
 
   .kartinka14{
     height: 328px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   body{
     margin: 0;  /* для body*/
@@ -289,11 +247,9 @@ padding-top: 20px;
 }
 
 
-
-
 .footer {
     width: 100%;
-    height: 365px;    /*supeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeerp*/
+    height: 365px;    
     background-color: #5F5A5A;
     
   }
@@ -318,8 +274,6 @@ margin-left: -20px;
 .Vazhno,.Podderzhka,.Politika,.contakti,.telephone,.email,.seti,.Nashi{
   margin-left: 100px;
 }
-
-
 
 
 .Nashi{
@@ -383,15 +337,6 @@ a{
 }
 
 
-
-
-
-
-
-
-
-
-
 @keyframes grow {
   from {
     transform: scale(1);
@@ -406,43 +351,12 @@ a{
   animation: grow 1s forwards;
 }
 
-
-
-
-
-
-
-
-
-/*-----------------------------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
 @media (min-width:320px) and (max-width:422px){
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
     display: block;
   }
- 
-
-
-
 
   .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
     text-align: center;
@@ -489,11 +403,6 @@ a{
 .podosnova{
   height: 6850px;
 }
-
-
-
-
-
 
 .Vazhno{
   font-size: 10px;
@@ -625,32 +534,10 @@ width: 13px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .kartinka14{
   height: 270px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
 
 
 .film19{
@@ -659,20 +546,6 @@ width: 13px;
 .razmeri{
   margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .ryad1 {
   display: flex; /* Включаем flex-контейнер */
@@ -685,11 +558,6 @@ width: 13px;
 }
 
 }
-
-
-
-
-
 
 @media (min-width:423px) and (max-width:644px){
 
@@ -716,10 +584,7 @@ width: 13px;
   .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
      display: block;
    }
-  
- 
- 
- 
+
  
    .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
      text-align: center;
@@ -767,11 +632,7 @@ width: 13px;
    height: 3650px;
  }
  
- 
- 
- 
- 
- 
+
  .Vazhno{
    font-size: 10px;
    margin-left: 10px;
@@ -905,35 +766,12 @@ width: 13px;
  .visa{
   margin-left: 91%;
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  .kartinka14{
    height: 270px;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
- 
- 
+
  .film19{
    margin-bottom: 30px;
  }
@@ -941,36 +779,18 @@ width: 13px;
    margin: auto;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  .ryad1 {
    display: flex; /* Включаем flex-контейнер */
    flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
    gap: 20px; /* Добавляем отступы между элементами */
    flex-wrap: wrap;
    justify-content: center;
- 
 
-
-
- 
  }
  
  }
 
- 
 @media (min-width:645px) and (max-width:767px){
 
   .film4 .bilet{
@@ -1007,18 +827,11 @@ width: 13px;
   }
 
 
-
-
-
-
   .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
      display: block;
    }
   
- 
- 
- 
- 
+
    .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
      text-align: center;
  
@@ -1065,11 +878,7 @@ width: 13px;
    height: 3700px;
  }
  
- 
- 
- 
- 
- 
+
  .Vazhno{
    font-size: 10px;
    margin-left: 10px;
@@ -1201,33 +1010,10 @@ width: 13px;
  }
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  .kartinka14{
    height: 270px;
  }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
- 
+
  
  .film19{
    margin-bottom: 30px;
@@ -1236,20 +1022,7 @@ width: 13px;
    margin: auto;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  .ryad1 {
    display: flex; /* Включаем flex-контейнер */
    flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
@@ -1261,12 +1034,6 @@ width: 13px;
  }
  
  }
-
-
-
-
-
-
  
 @media (min-width:768px) and (max-width:866px){
 
@@ -1303,18 +1070,9 @@ width: 13px;
     margin-top: 7px;
   }
 
-
-
-
-
-
   .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
      display: block;
    }
-  
- 
- 
- 
  
    .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
      text-align: center;
@@ -1361,12 +1119,7 @@ width: 13px;
  .podosnova{
    height: 3700px;
  }
- 
- 
- 
- 
- 
- 
+
  .Vazhno{
    font-size: 10px;
    margin-left: 10px;
@@ -1497,35 +1250,13 @@ width: 13px;
    padding-top: 16px;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  .kartinka14{
    height: 270px;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
- 
- 
+
  .film19{
    margin-bottom: 30px;
  }
@@ -1534,20 +1265,11 @@ width: 13px;
  }
  
  
- 
- 
- 
- 
- 
- 
- 
  .visa{
   margin-left: 91%;
  }
  
- 
- 
- 
+
  
  .ryad1 {
    display: flex; /* Включаем flex-контейнер */
@@ -1597,19 +1319,11 @@ width: 13px;
     margin-top: 7px;
   }
 
-
-
-
-
-
   .ryad1,.ryad2,.ryad3,.ryad4,.ryad5{
      display: block;
    }
   
- 
- 
- 
- 
+
    .film1,.film2,.film3,.film4,.film5,.film6,.film7,.film8,.film9,.film10,.film11,.film12,.film13,.film14,.film15,.film16,.film17,.film18,.film19,.film20{
      text-align: center;
  
@@ -1656,11 +1370,7 @@ width: 13px;
    height: 2050px;
  }
  
- 
- 
- 
- 
- 
+
  .Vazhno{
    font-size: 10px;
    margin-left: 10px;
@@ -1792,33 +1502,11 @@ width: 13px;
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
  .kartinka14{
    height: 270px;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- /* wdfauifhaeuifhweuifhwejfgbehjbghwfghjwbfhwehdhjwbdhjqbdjbfhjwbfhjwBFHJWbfhjwBFHWBFHWBhfjwHJF*/
- 
- 
+
  .film19{
    margin-bottom: 30px;
  }
@@ -1826,36 +1514,16 @@ width: 13px;
    margin: auto;
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  .ryad1 {
    display: flex; /* Включаем flex-контейнер */
    flex-wrap: nowrap; /* Запрещаем перенос на новую строку */
    gap: 20px; /* Добавляем отступы между элементами */
    flex-wrap: wrap;
    justify-content: center;
- 
- 
  }
- 
 
  .foot5{
   width: 96%;
  }
-
- 
  }
-
-
