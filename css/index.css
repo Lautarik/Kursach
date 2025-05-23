@@ -518,6 +518,9 @@ main {
   .foot3 {
     width: 20%;
   }
+  .fooot1 .podderzhkaaa {
+    font-size: 12px;
+  }
 }
 @media (min-width: 420px) and (max-width: 479px) {
   main {

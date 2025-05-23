@@ -512,6 +512,9 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .fooot1 .podderzhkaaa {
+    font-size: 12px;
+  }
 }
 @media (min-width: 423px) and (max-width: 644px) {
   .film4 .bilet {
